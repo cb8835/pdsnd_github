@@ -15,7 +15,6 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    #city = ('chicago', 'new_york_city', 'washington')
     months = ('all', 'january', 'february', 'march', 'april', 'may', 'june')
     days = ('all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday')
 

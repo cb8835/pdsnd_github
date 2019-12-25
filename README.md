@@ -15,5 +15,6 @@ washington.csv
 
 ### Credits
 https://knowledge.udacity.com/?nanodegree=c104469e-9f2b-11e8-af91-57d8eb30db69&page=1
+https://help.github.com/en/github/using-git/using-common-git-commands
 
 

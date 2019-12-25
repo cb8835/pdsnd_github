@@ -15,7 +15,6 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    #city = ('chicago', 'new_york_city', 'washington')
     months = ('all', 'january', 'february', 'march', 'april', 'may', 'june')
     days = ('all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday')
 
@@ -43,7 +42,7 @@ def get_filters():
   
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-      day = input("Which day would you like? 'All', 'Monday', 'Tuesday', 'Wednesday', 'Thurday', 'Friday', 'Saturday',         'Sunday'\n").lower()  
+      day = input("Which day of the week would you like? 'All', 'Monday', 'Tuesday', 'Wednesday', 'Thurday', 'Friday', 'Saturday',         'Sunday'\n").lower()  
       if day not in days:
         print("That is an invalid response. Please try again")
         continue
